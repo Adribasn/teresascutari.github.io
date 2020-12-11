@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Yeseva+One&display=swap" rel="stylesheet"> 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="my.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Teresa Scutari</title>
@@ -194,14 +196,15 @@
     <section id="contact" class="grid">
         <h3>Contact</h3>
         
-        <form class="contact-form" action="contactform.php" method="post">
-            <input type="text" name="name" placeholder="PRÉNOM">
-            <input type="text" name="surname" placeholder="NOM">
-            <input type="text" name="email" placeholder="EMAIL">
-            <input type="text" name="sujet" placeholder="SUJET">
-            <textarea name="message" placeholder="VOTRE MESSAGE"></textarea>
+        <form class="contact-form" action="contactform.php" method="POST">
+            <input class="name" type="text" name="name" placeholder="PRÉNOM">
+            <input class="surname" type="text" name="surname" placeholder="NOM">
+            <input class="email" type="text" name="email" placeholder="EMAIL">
+            <input class="sujet" type="text" name="sujet" placeholder="SUJET">
+            <textarea class="message" name="message" placeholder="VOTRE MESSAGE"></textarea>
             <button type ="submit" name="submit" class="button">Envoyer</button>
         </form>
+        <div class="status"></div>
     </section>
     <footer>
 
