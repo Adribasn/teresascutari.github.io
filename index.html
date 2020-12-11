@@ -196,15 +196,16 @@
     <section id="contact" class="grid">
         <h3>Contact</h3>
         
-        <form class="contact-form" action="contactform.php" method="POST">
-            <input class="name" type="text" name="name" placeholder="PRÉNOM">
-            <input class="surname" type="text" name="surname" placeholder="NOM">
-            <input class="email" type="text" name="email" placeholder="EMAIL">
-            <input class="sujet" type="text" name="sujet" placeholder="SUJET">
-            <textarea class="message" name="message" placeholder="VOTRE MESSAGE"></textarea>
+        <form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;"class="contact-form" action="
+        https://docs.google.com/forms/d/e/1FAIpQLSdKy2vofPHm2lx50W9rUzMU-ECVevDWde_Sz9a8vRF1JsvNrg/formResponse?" method="POST">
+            <input id="entry.426759685" class="name" type="text" name="entry.426759685" placeholder="PRÉNOM">
+            <input id ="entry.209947395" class="surname" type="text" name="entry.209947395" placeholder="NOM">
+            <input id="entry.1434256802" class="email" type="text" name="entry.1434256802" placeholder="EMAIL">
+            <input id="entry.183672552" class="sujet" type="text" name="entry.183672552" placeholder="SUJET">
+            <textarea id="entry.183672552" class="message" name="entry.183672552" placeholder="VOTRE MESSAGE"></textarea>
             <button type ="submit" name="submit" class="button">Envoyer</button>
         </form>
-        <div class="status"></div>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
     </section>
     <footer>
 
