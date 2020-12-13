@@ -16,6 +16,6 @@ $(function() {
 //Fade out form
 $(document).ready(function(){
   $(".button").clicked(function(){
-    $("#gform").fadeOut()
+    $(this).fadeOut()
   });
 });
