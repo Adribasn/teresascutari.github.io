@@ -13,10 +13,10 @@ $(function() {
       }
     });
   });
-// Fade Out form
-$(function() {
+// Fade Out form 
+function FadeOut() {
   $('#gform').on('submit', function(e){
-    $('#gform').fadeOut(2000);
+    $('#gform').classList.add(".FadeOut");
   });
-});
+}
 
