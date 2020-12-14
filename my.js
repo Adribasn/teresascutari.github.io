@@ -15,6 +15,6 @@ $(function() {
   });
 // Fade Out form
 $('#gform').on('submit', function(e){
-  $('#gform').FadeOut(2000);
+  $('#gform').fadeOut(2000);
 });
 
