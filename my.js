@@ -14,7 +14,9 @@ $(function() {
     });
   });
 // Fade Out form
-$('#gform').on('submit', function(e){
-  $('#gform').fadeOut(2000);
+$(function() {
+  $('#gform').on('submit', function(e){
+    $('#gform').fadeOut(2000);
+  });
 });
 
