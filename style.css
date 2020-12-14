@@ -305,7 +305,3 @@ a {
     text-align: left;
 }
 
-.FadeOut {
-    opacity: 0;
-    transition: ease-in 2s;
-}

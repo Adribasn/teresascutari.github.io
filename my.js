@@ -14,9 +14,4 @@ $(function() {
     });
   });
 // Fade Out form 
-function FadeOut() {
-  $('#gform').on('submit', function(e){
-    $('#gform').classList.add(".FadeOut");
-  });
-}
-
+$.rule('.contact-form{opacity:0}').appendTo('style')
