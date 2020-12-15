@@ -15,4 +15,9 @@ $(function() {
   });
 // Fade Out form 
 var submitted = false;
-$.rule('.contact-form{opacity:0}').appendTo('style')
+
+$('#gform').on('submit', function(e){
+  $('#gform *').fadeOut("slow", function() {
+    $(this).show().css({visibility: "hidden"});
+  });
+});
