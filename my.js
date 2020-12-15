@@ -17,7 +17,5 @@ $(function() {
 var submitted = false;
 
 $('#gform').on('submit', function(e){
-  $('#gform *').fadeOut("slow", function() {
-    $(this).show().css({visibility: "hidden"});
-  });
+  $('#gform *').fadeOut(2000) 
 });
