@@ -14,4 +14,5 @@ $(function() {
     });
   });
 // Fade Out form 
+var submitted = false;
 $.rule('.contact-form{opacity:0}').appendTo('style')
