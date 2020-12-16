@@ -213,9 +213,10 @@
     
         <script type="text/javascript">
             $('#gform').on('submit', function(e){
-                $('#gform *').fadeOut(2000);
+                $('#gform *').fadeOut("slow", function() {
+                    $(this).show().css({visibility: "hidden"});
+                });
             });
-    
         </script>
     </section>
     <footer>
