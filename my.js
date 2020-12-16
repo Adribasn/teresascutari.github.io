@@ -13,9 +13,3 @@ $(function() {
       }
     });
   });
-// Fade Out form 
-var submitted = false;
-
-$('#gform').on('submit', function(e){
-  $('#gform *').fadeOut(2000) 
-});
