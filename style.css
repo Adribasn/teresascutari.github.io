@@ -9,5 +9,43 @@
 body {
     background-color: rgb(255, 255, 255);
     font-size: 100%;
+    margin: 0;
 }
 
+.outer-home-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-home-page {
+
+}
+
+#first-name {
+    font-size: 5rem;
+    color: var(--primary-clr);
+    font-family: var(--primary-font);
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#last-name {
+    font-size: 5rem;
+    color: var(--primary-clr);
+    font-family: var(--primary-font);
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#occupation {
+    font-size: 2rem;
+    color: var(--secondary-clr);
+    font-family: var(--secondary-font);
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
