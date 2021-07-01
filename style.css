@@ -49,3 +49,42 @@ body {
     margin-bottom: 0;
     text-align: center;
 }
+
+.outer-first-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 7em;
+}
+
+.inner-first-text {
+    width: 80%;
+    max-width: 414px;
+}
+
+#first-text {
+    font-family: var(--secondary-font);
+    color: var(--secondary-clr);
+    font-size: 1rem;
+}
+
+.outer-first-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.inner-first-image {
+    width: 80%;
+}
+
+#first-image {
+    max-width: 100%;
+    border-radius: 1%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
+
